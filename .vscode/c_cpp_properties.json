@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/app",
+                "${workspaceFolder}/drivers",
+                "${workspaceFolder}/drivers/headers",
+                "${workspaceFolder}/drivers/includes",
+                "C:/Keil/ARM/RV31/INC",
+                "C:/Keil/ARM/CMSIS/Include",
+                "C:/Keil/ARM/Inc/ST/STM32F0xx"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "compilerPath": "cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}

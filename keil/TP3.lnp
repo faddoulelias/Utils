@@ -3,7 +3,6 @@
 ".\system_stm32f0xx_hsi_rc_48mhz.o"
 ".\main.o"
 ".\printf-stdarg.o"
-".\bsp.o"
 ".\delay.o"
 ".\printf-stdarg.o"
 ".\stm.o"

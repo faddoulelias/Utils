@@ -22,7 +22,8 @@ int main()
   initTimer(TIMER_14, PERIOD);
   initGPIO(GPIO_A);
   initGPIO(GPIO_C);
-  initADC1(GPIO_A, 0);
+  initADC1(GPIO_C, 0);
+  initDAC1(4);
   initConsole();
 
   setPinMode(GPIO_A, 5, GPIO_MODE_OUTPUT);
@@ -41,8 +42,8 @@ int main()
 
 void TIM14_IRQHandler(void)
 {
-  TIM14->SR &= ~(1 << 0);
-  GPIOA->ODR ^= (1 << 5);
+  lowerTimerFlag(TIMER_14);
+  setPinState(GPIO_A, 15, HIGH);
   i++;
 
   serialPrint("Valeur ADC = %d\r\n", ADC1->DR);

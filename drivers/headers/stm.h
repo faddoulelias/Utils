@@ -125,6 +125,8 @@ void initDAC1(int port);
  */
 void initTimer(TIMER_ID timer_id, uint16_t period);
 
+void lowerTimerFlag();
+
 /**
  * @brief Start a timer and set its interrupt priority
  *

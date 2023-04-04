@@ -354,6 +354,30 @@ void setTimerEventPriority(TIMER_ID timer_id, uint8_t priority)
     }
 }
 
+void lowerTimerFlag(TIMER_ID timer_id)
+{
+    switch (timer_id)
+    {
+    case TIMER_2:
+        TIM2->SR &= ~(1 << 0);
+        break;
+    case TIMER_3:
+        TIM3->SR &= ~(1 << 0);
+        break;
+    case TIMER_6:
+        TIM6->SR &= ~(1 << 0);
+        break;
+    case TIMER_7:
+        TIM7->SR &= ~(1 << 0);
+        break;
+    case TIMER_14:
+        TIM14->SR &= ~(1 << 0);
+        break;
+    default:
+        break;
+    }
+}
+
 int delay(uint32_t time) // time in ms
 {
     uint32_t i = 0;

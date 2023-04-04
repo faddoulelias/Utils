@@ -7,3 +7,109 @@ D:\OneDrive - Murex\Desktop\Utils\keil\TP3.uvproj
 Project File Date:  03/31/2023
 
 <h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling startup_stm32f072.s...
+compiling system_stm32f0xx_HSI_RC_48MHz.c...
+compiling main.c...
+..\drivers\headers\stm.h(140): warning:  #1295-D: Deprecated declaration initConsole - give arg types
+  void initConsole();
+..\drivers\headers\bsp.h(36): warning:  #1295-D: Deprecated declaration BSP_DAC_Init - give arg types
+  void BSP_DAC_Init();
+..\app\main.c: 2 warnings, 0 errors
+compiling printf-stdarg.c...
+..\drivers\headers\stm.h(140): warning:  #1295-D: Deprecated declaration initConsole - give arg types
+  void initConsole();
+..\drivers\printf-stdarg.c: 1 warning, 0 errors
+compiling bsp.c...
+..\drivers\headers\stm.h(140): warning:  #1295-D: Deprecated declaration initConsole - give arg types
+  void initConsole();
+..\drivers\headers\bsp.h(36): warning:  #1295-D: Deprecated declaration BSP_DAC_Init - give arg types
+  void BSP_DAC_Init();
+..\drivers\bsp.c(334): warning:  #61-D: integer operation result is out of range
+        ADC1->CFGR2 |= (0x01 << 31UL);
+..\drivers\bsp.c(334): warning:  #68-D: integer conversion resulted in a change of sign
+        ADC1->CFGR2 |= (0x01 << 31UL);
+..\drivers\bsp.c: 4 warnings, 0 errors
+compiling delay.c...
+compiling printf-stdarg.c...
+..\drivers\headers\stm.h(140): warning:  #1295-D: Deprecated declaration initConsole - give arg types
+  void initConsole();
+..\drivers\printf-stdarg.c: 1 warning, 0 errors
+compiling stm.c...
+..\drivers\headers\stm.h(140): warning:  #1295-D: Deprecated declaration initConsole - give arg types
+  void initConsole();
+..\drivers\stm.c(148): warning:  #940-D: missing return statement at end of non-void function "readPinState"
+  }
+..\drivers\stm.c(164): warning:  #61-D: integer operation result is out of range
+      ADC1->CFGR2 |= (0x01 << 31UL);
+..\drivers\stm.c(164): warning:  #68-D: integer conversion resulted in a change of sign
+      ADC1->CFGR2 |= (0x01 << 31UL);
+..\drivers\stm.c(396): warning:  #1-D: last line of file ends without a newline
+  }
+..\drivers\stm.c: 5 warnings, 0 errors
+linking...
+.\TP3.axf: Warning: L6304W: Duplicate input file .\printf-stdarg.o ignored.
+Program Size: Code=4520 RO-data=224 RW-data=28 ZI-data=1636  
+Finished: 0 information, 1 warning and 0 error messages.
+".\TP3.axf" - 0 Error(s), 14 Warning(s).
+Load "D:\\OneDrive - Murex\\Desktop\\Utils\\keil\\TP3.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+d
+m.h(28): error:  #101: "HIGH" has already been declared in the current scope
+      HIGH = 1
+..\drivers\headers\stm.h(29): error:  #256: invalid redeclaration of type name "PIN_STATE" (declared at line 29)
+  } PIN_STATE;
+..\drivers\headers\stm.h(31): error:  #101: "TIMER_ID_" has already been declared in the current scope
+  typedef enum TIMER_ID_
+..\drivers\headers\stm.h(33): error:  #101: "TIMER_2" has already been declared in the current scope
+      TIMER_2 = 0,
+..\drivers\headers\stm.h(34): error:  #101: "TIMER_3" has already been declared in the current scope
+      TIMER_3 = 1,
+..\drivers\headers\stm.h(35): error:  #101: "TIMER_6" has already been declared in the current scope
+      TIMER_6 = 2,
+..\drivers\headers\stm.h(36): error:  #101: "TIMER_7" has already been declared in the current scope
+      TIMER_7 = 3,
+..\drivers\headers\stm.h(37): error:  #101: "TIMER_14" has already been declared in the current scope
+      TIMER_14 = 4
+..\drivers\headers\stm.h(38): error:  #256: invalid redeclaration of type name "TIMER_ID" (declared at line 38)
+  } TIMER_ID;
+..\drivers\headers\stm.h(40): error:  #101: "PULL_MODE_" has already been declared in the current scope
+  typedef enum PULL_MODE_
+..\drivers\headers\stm.h(42): error:  #101: "NO_PULL_UP_PULL_DOWN" has already been declared in the current scope
+      NO_PULL_UP_PULL_DOWN = 0,
+..\drivers\headers\stm.h(43): error:  #101: "PULL_UP" has already been declared in the current scope
+      PULL_UP = 1,
+..\drivers\headers\stm.h(44): error:  #101: "PULL_DOWN" has already been declared in the current scope
+      PULL_DOWN = 2,
+..\drivers\headers\stm.h(45): error:  #101: "RESERVED" has already been declared in the current scope
+      RESERVED = 3
+..\app\main.c: 2 warnings, 30 errors
+compiling printf-stdarg.c...
+compiling bsp.c...
+..\drivers\headers\stm.h(138): warning:  #1295-D: Deprecated declaration initConsole - give arg types
+  void initConsole();
+..\drivers\headers\bsp.h(36): warning:  #1295-D: Deprecated declaration BSP_DAC_Init - give arg types
+  void BSP_DAC_Init();
+..\drivers\bsp.c(414): warning:  #61-D: integer operation result is out of range
+        ADC1->CFGR2 |= (0x01 << 31UL);
+..\drivers\bsp.c(414): warning:  #68-D: integer conversion resulted in a change of sign
+        ADC1->CFGR2 |= (0x01 << 31UL);
+..\drivers\bsp.c: 4 warnings, 0 errors
+compiling delay.c...
+compiling printf-stdarg.c...
+compiling stm.c...
+..\drivers\headers\stm.h(138): warning:  #1295-D: Deprecated declaration initConsole - give arg types
+  void initConsole();
+..\drivers\stm.c(148): warning:  #940-D: missing return statement at end of non-void function "readPinState"
+  }
+..\drivers\stm.c(164): warning:  #61-D: integer operation result is out of range
+      ADC1->CFGR2 |= (0x01 << 31UL);
+..\drivers\stm.c(164): warning:  #68-D: integer conversion resulted in a change of sign
+      ADC1->CFGR2 |= (0x01 << 31UL);
+..\drivers\stm.c(396): warning:  #1-D: last line of file ends without a newline
+  }
+..\drivers\stm.c: 5 warnings, 0 errors
+".\TP3.axf" - 30 Error(s), 11 Warning(s).
+Target not created

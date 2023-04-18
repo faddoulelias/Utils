@@ -11,32 +11,39 @@ Rebuild target 'Target 1'
 assembling startup_stm32f072.s...
 compiling system_stm32f0xx_HSI_RC_48MHz.c...
 compiling main.c...
-..\drivers\headers\stm.h(140): warning:  #1295-D: Deprecated declaration initConsole - give arg types
-  void initConsole();
-..\drivers\headers\bsp.h(36): warning:  #1295-D: Deprecated declaration BSP_DAC_Init - give arg types
-  void BSP_DAC_Init();
-..\app\main.c: 2 warnings, 0 errors
-compiling printf-stdarg.c...
-..\drivers\headers\stm.h(140): warning:  #1295-D: Deprecated declaration initConsole - give arg types
-  void initConsole();
-..\drivers\printf-stdarg.c: 1 warning, 0 errors
-compiling bsp.c...
-..\drivers\headers\stm.h(140): warning:  #1295-D: Deprecated declaration initConsole - give arg types
-  void initConsole();
-..\drivers\headers\bsp.h(36): warning:  #1295-D: Deprecated declaration BSP_DAC_Init - give arg types
-  void BSP_DAC_Init();
-..\drivers\bsp.c(334): warning:  #61-D: integer operation result is out of range
-        ADC1->CFGR2 |= (0x01 << 31UL);
-..\drivers\bsp.c(334): warning:  #68-D: integer conversion resulted in a change of sign
-        ADC1->CFGR2 |= (0x01 << 31UL);
-..\drivers\bsp.c: 4 warnings, 0 errors
 compiling delay.c...
 compiling printf-stdarg.c...
-..\drivers\headers\stm.h(140): warning:  #1295-D: Deprecated declaration initConsole - give arg types
-  void initConsole();
-..\drivers\printf-stdarg.c: 1 warning, 0 errors
 compiling stm.c...
-..\drivers\headers\stm.h(140): warning:  #1295-D: Deprecated declaration initConsole - give arg types
+..\drivers\stm.c(166): warning:  #61-D: integer operation result is out of range
+      ADC1->CFGR2 |= (0x01 << 31);
+..\drivers\stm.c(166): warning:  #68-D: integer conversion resulted in a change of sign
+      ADC1->CFGR2 |= (0x01 << 31);
+..\drivers\stm.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=4624 RO-data=224 RW-data=28 ZI-data=1636  
+".\TP3.axf" - 0 Error(s), 2 Warning(s).
+Load "D:\\OneDrive - Murex\\Desktop\\Utils\\keil\\TP3.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+missing return statement at end of non-void function "readPinState"
+  }
+..\drivers\stm.c(164): error:  #20: identifier "int32" is undefined
+      ADC1->CFGR2 |= (int32)(0x01 << 31UL);
+..\drivers\stm.c(164): warning:  #61-D: integer operation result is out of range
+      ADC1->CFGR2 |= (int32)(0x01 << 31UL);
+..\drivers\stm.c: 3 warnings, 1 error
+".\TP3.axf" - 1 Error(s), 5 Warning(s).
+Target not created
+rs\stm.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=4624 RO-data=224 RW-data=28 ZI-data=1636  
+".\TP3.axf" - 0 Error(s), 7 Warning(s).
+Load "D:\\OneDrive - Murex\\Desktop\\Utils\\keil\\TP3.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+es
   void initConsole();
 ..\drivers\stm.c(148): warning:  #940-D: missing return statement at end of non-void function "readPinState"
   }
@@ -44,15 +51,23 @@ compiling stm.c...
       ADC1->CFGR2 |= (0x01 << 31UL);
 ..\drivers\stm.c(164): warning:  #68-D: integer conversion resulted in a change of sign
       ADC1->CFGR2 |= (0x01 << 31UL);
-..\drivers\stm.c(396): warning:  #1-D: last line of file ends without a newline
+..\drivers\stm.c(420): warning:  #1-D: last line of file ends without a newline
   }
-..\drivers\stm.c: 5 warnings, 0 errors
+..\drivers\stm.c: 6 warnings, 0 errors
 linking...
 .\TP3.axf: Warning: L6304W: Duplicate input file .\printf-stdarg.o ignored.
-Program Size: Code=4520 RO-data=224 RW-data=28 ZI-data=1636  
+Program Size: Code=4624 RO-data=224 RW-data=28 ZI-data=1636  
 Finished: 0 information, 1 warning and 0 error messages.
-".\TP3.axf" - 0 Error(s), 14 Warning(s).
+".\TP3.axf" - 0 Error(s), 13 Warning(s).
 Load "D:\\OneDrive - Murex\\Desktop\\Utils\\keil\\TP3.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\OneDrive - Murex\\Desktop\\Utils\\keil\\TP3.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+\TP3.axf" 
 Erase Done.
 Programming Done.
 Verify OK.

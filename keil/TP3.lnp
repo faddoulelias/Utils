@@ -2,7 +2,6 @@
 ".\startup_stm32f072.o"
 ".\system_stm32f0xx_hsi_rc_48mhz.o"
 ".\main.o"
-".\printf-stdarg.o"
 ".\delay.o"
 ".\printf-stdarg.o"
 ".\stm.o"

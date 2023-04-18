@@ -27,7 +27,8 @@ typedef enum GPIO_MODE_
 typedef enum PIN_STATE_
 {
     LOW = 0,
-    HIGH = 1
+    HIGH = 1,
+    UNKNOWN = -1
 } PIN_STATE;
 
 typedef enum TIMER_ID_
@@ -125,7 +126,7 @@ void initDAC1(int port);
  */
 void initTimer(TIMER_ID timer_id, uint16_t period);
 
-void lowerTimerFlag();
+void lowerTimerFlag(TIMER_ID timer_id);
 
 /**
  * @brief Start a timer and set its interrupt priority
@@ -139,7 +140,7 @@ void setTimerEventPriority(TIMER_ID timer_id, uint8_t priority);
  * @brief Initialize the console
  *
  */
-void initConsole();
+void initConsole(void);
 
 int serialPrint(const char *format, ...);
 int stringPrint(char *out, const char *format, ...);

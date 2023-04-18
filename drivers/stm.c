@@ -145,6 +145,8 @@ PIN_STATE readPinState(GPIO gpio, int port)
     case GPIO_F:
         return (PIN_STATE)((GPIOF->IDR >> port) & 1);
     }
+
+    return UNKNOWN;
 }
 
 void initADC1(GPIO gpio, int port)

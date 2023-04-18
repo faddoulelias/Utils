@@ -14,17 +14,8 @@ I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C827C4)
 I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C6842)
 I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C6842)
 I (C:\Keil\ARM\Inc\ST\STM32F0xx\system_stm32f0xx.h)(0x532C63DC)
-I (..\drivers\headers\stm.h)(0x642C14D0)
+I (..\drivers\headers\stm.h)(0x642C1B50)
 I (..\drivers\headers\delay.h)(0x6426818A)
-F (..\app\printf-stdarg.c)(0x00000000)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\app -I..\drivers -I..\drivers\headers-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F0xx-DSTM32F072-o .\printf-stdarg.o --omf_browse .\printf-stdarg.crf --depend .\printf-stdarg.d)
-I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C827C4)
-I (..\drivers\headers\stm.h)(0x642C14D0)
-I (C:\Keil\ARM\Inc\ST\STM32F0xx\stm32f0xx.h)(0x532C63DC)
-I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x532C6842)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C827C4)
-I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C6842)
-I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C6842)
-I (C:\Keil\ARM\Inc\ST\STM32F0xx\system_stm32f0xx.h)(0x532C63DC)
 F (..\drivers\delay.c)(0x6426818A)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\app -I..\drivers -I..\drivers\headers-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F0xx-DSTM32F072-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
 I (..\drivers\headers\delay.h)(0x6426818A)
 I (C:\Keil\ARM\Inc\ST\STM32F0xx\stm32f0xx.h)(0x532C63DC)
@@ -35,15 +26,15 @@ I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C6842)
 I (C:\Keil\ARM\Inc\ST\STM32F0xx\system_stm32f0xx.h)(0x532C63DC)
 F (..\drivers\printf-stdarg.c)(0x642C1244)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\app -I..\drivers -I..\drivers\headers-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F0xx-DSTM32F072-o .\printf-stdarg.o --omf_browse .\printf-stdarg.crf --depend .\printf-stdarg.d)
 I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C827C4)
-I (..\drivers\headers\stm.h)(0x642C14D0)
+I (..\drivers\headers\stm.h)(0x642C1B50)
 I (C:\Keil\ARM\Inc\ST\STM32F0xx\stm32f0xx.h)(0x532C63DC)
 I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x532C6842)
 I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C827C4)
 I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C6842)
 I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C6842)
 I (C:\Keil\ARM\Inc\ST\STM32F0xx\system_stm32f0xx.h)(0x532C63DC)
-F (..\drivers\stm.c)(0x642C1564)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\app -I..\drivers -I..\drivers\headers-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F0xx-DSTM32F072-o .\stm.o --omf_browse .\stm.crf --depend .\stm.d)
-I (..\drivers\headers\stm.h)(0x642C14D0)
+F (..\drivers\stm.c)(0x642C1C2B)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\app -I..\drivers -I..\drivers\headers-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F0xx-DSTM32F072-o .\stm.o --omf_browse .\stm.crf --depend .\stm.d)
+I (..\drivers\headers\stm.h)(0x642C1B50)
 I (C:\Keil\ARM\Inc\ST\STM32F0xx\stm32f0xx.h)(0x532C63DC)
 I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x532C6842)
 I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C827C4)
